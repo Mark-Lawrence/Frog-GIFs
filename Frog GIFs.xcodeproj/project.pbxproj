@@ -13,6 +13,94 @@
 		5F6FEC891FE61A3D00E56C94 /* MessagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F6FEC881FE61A3D00E56C94 /* MessagesViewController.swift */; };
 		5F6FEC8C1FE61A3D00E56C94 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F6FEC8A1FE61A3D00E56C94 /* MainInterface.storyboard */; };
 		5F6FEC8E1FE61A3D00E56C94 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F6FEC8D1FE61A3D00E56C94 /* Assets.xcassets */; };
+		5F6FEC9A1FE61B3F00E56C94 /* FrogGIFCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F6FEC991FE61B3F00E56C94 /* FrogGIFCollectionViewController.swift */; };
+		5F6FEC9C1FE61B6500E56C94 /* FrogGIFSectionHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F6FEC9B1FE61B6500E56C94 /* FrogGIFSectionHeader.swift */; };
+		5F6FEC9E1FE61B9D00E56C94 /* FrogGIFData.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5F6FEC9D1FE61B9D00E56C94 /* FrogGIFData.plist */; };
+		5F6FECA01FE61BDB00E56C94 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F6FEC9F1FE61BDB00E56C94 /* CollectionViewCell.swift */; };
+		5F6FECA21FE61BF900E56C94 /* DataHelperMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F6FECA11FE61BF900E56C94 /* DataHelperMethod.swift */; };
+		5FD550D3258FF7BB00F3AA32 /* Lazy boy.png in Resources */ = {isa = PBXBuildFile; fileRef = 5FD550D2258FF7BB00F3AA32 /* Lazy boy.png */; };
+		5FD550D9258FF91F00F3AA32 /* Lazy boy-key.png in Resources */ = {isa = PBXBuildFile; fileRef = 5FD550D8258FF91F00F3AA32 /* Lazy boy-key.png */; };
+		5FD550DD258FFAFD00F3AA32 /* Scarf.png in Resources */ = {isa = PBXBuildFile; fileRef = 5FD550DC258FFAFD00F3AA32 /* Scarf.png */; };
+		5FD550E1258FFB0300F3AA32 /* Snow fall.png in Resources */ = {isa = PBXBuildFile; fileRef = 5FD550E0258FFB0300F3AA32 /* Snow fall.png */; };
+		5FD550EF258FFB4A00F3AA32 /* Snowball.png in Resources */ = {isa = PBXBuildFile; fileRef = 5FD550EE258FFB4A00F3AA32 /* Snowball.png */; };
+		5FD550F3258FFB5000F3AA32 /* Scarf-key.png in Resources */ = {isa = PBXBuildFile; fileRef = 5FD550F2258FFB5000F3AA32 /* Scarf-key.png */; };
+		5FD550F7258FFB5300F3AA32 /* Snow fall-key.png in Resources */ = {isa = PBXBuildFile; fileRef = 5FD550F6258FFB5300F3AA32 /* Snow fall-key.png */; };
+		5FD550FB258FFB7100F3AA32 /* Snowball-key.png in Resources */ = {isa = PBXBuildFile; fileRef = 5FD550FA258FFB7000F3AA32 /* Snowball-key.png */; };
+		5FF0DC441FE8D91900DF65CF /* ODRManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FF0DC431FE8D91900DF65CF /* ODRManager.swift */; };
+		5FF0DC6A1FE9709400DF65CF /* Elbows.png in Resources */ = {isa = PBXBuildFile; fileRef = 5FF0DC451FE9706D00DF65CF /* Elbows.png */; };
+		5FF0DC6B1FE9709400DF65CF /* Sitting by Lake 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 5FF0DC461FE9706E00DF65CF /* Sitting by Lake 2.png */; };
+		5FF0DC6C1FE9709400DF65CF /* Library.png in Resources */ = {isa = PBXBuildFile; fileRef = 5FF0DC471FE9706F00DF65CF /* Library.png */; };
+		5FF0DC6D1FE9709400DF65CF /* Albert.png in Resources */ = {isa = PBXBuildFile; fileRef = 5FF0DC481FE9707000DF65CF /* Albert.png */; };
+		5FF0DC6E1FE9709400DF65CF /* Running.png in Resources */ = {isa = PBXBuildFile; fileRef = 5FF0DC491FE9707000DF65CF /* Running.png */; };
+		5FF0DC6F1FE9709400DF65CF /* Hit by Tennis Ball.png in Resources */ = {isa = PBXBuildFile; fileRef = 5FF0DC4A1FE9707100DF65CF /* Hit by Tennis Ball.png */; };
+		5FF0DC701FE9709400DF65CF /* Century Tower.png in Resources */ = {isa = PBXBuildFile; fileRef = 5FF0DC4B1FE9707200DF65CF /* Century Tower.png */; };
+		5FF0DC711FE9709400DF65CF /* Chomp.png in Resources */ = {isa = PBXBuildFile; fileRef = 5FF0DC4C1FE9707200DF65CF /* Chomp.png */; };
+		5FF0DC721FE9709400DF65CF /* Stadium.png in Resources */ = {isa = PBXBuildFile; fileRef = 5FF0DC4D1FE9707400DF65CF /* Stadium.png */; };
+		5FF0DC731FE9709400DF65CF /* The Swamp.png in Resources */ = {isa = PBXBuildFile; fileRef = 5FF0DC4E1FE9707500DF65CF /* The Swamp.png */; };
+		5FF0DC741FE9709400DF65CF /* Stranger Things.png in Resources */ = {isa = PBXBuildFile; fileRef = 5FF0DC4F1FE9707600DF65CF /* Stranger Things.png */; };
+		5FF0DC751FE9709400DF65CF /* Sitting by Lake 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 5FF0DC501FE9707700DF65CF /* Sitting by Lake 1.png */; };
+		5FF0DC761FE9709400DF65CF /* Clapping.png in Resources */ = {isa = PBXBuildFile; fileRef = 5FF0DC511FE9707800DF65CF /* Clapping.png */; };
+		5FF0DC771FE9709400DF65CF /* Hair Swoop.png in Resources */ = {isa = PBXBuildFile; fileRef = 5FF0DC521FE9707900DF65CF /* Hair Swoop.png */; };
+		5FF0DC781FE9709400DF65CF /* Laugh.png in Resources */ = {isa = PBXBuildFile; fileRef = 5FF0DC531FE9707A00DF65CF /* Laugh.png */; };
+		5FF0DC791FE9709400DF65CF /* Scheming.png in Resources */ = {isa = PBXBuildFile; fileRef = 5FF0DC541FE9707A00DF65CF /* Scheming.png */; };
+		5FF0DC7A1FE9709400DF65CF /* Jumping in Lake.png in Resources */ = {isa = PBXBuildFile; fileRef = 5FF0DC551FE9707B00DF65CF /* Jumping in Lake.png */; };
+		5FF0DC7B1FE9709400DF65CF /* Falling Racket.png in Resources */ = {isa = PBXBuildFile; fileRef = 5FF0DC561FE9707C00DF65CF /* Falling Racket.png */; };
+		5FF0DC7C1FE9709400DF65CF /* Sleepy.png in Resources */ = {isa = PBXBuildFile; fileRef = 5FF0DC571FE9707D00DF65CF /* Sleepy.png */; };
+		5FF0DC7D1FE9709400DF65CF /* Smelly.png in Resources */ = {isa = PBXBuildFile; fileRef = 5FF0DC581FE9707E00DF65CF /* Smelly.png */; };
+		5FF0DC7E1FE9709400DF65CF /* Waving.png in Resources */ = {isa = PBXBuildFile; fileRef = 5FF0DC591FE9707F00DF65CF /* Waving.png */; };
+		5FF0DC7F1FE9709400DF65CF /* Big Kiss.png in Resources */ = {isa = PBXBuildFile; fileRef = 5FF0DC5A1FE9708000DF65CF /* Big Kiss.png */; };
+		5FF0DC801FE9709400DF65CF /* Covering Ears.png in Resources */ = {isa = PBXBuildFile; fileRef = 5FF0DC5B1FE9708100DF65CF /* Covering Ears.png */; };
+		5FF0DC811FE9709400DF65CF /* Addicted to Phone.png in Resources */ = {isa = PBXBuildFile; fileRef = 5FF0DC5C1FE9708200DF65CF /* Addicted to Phone.png */; };
+		5FF0DC821FE9709400DF65CF /* Stress.png in Resources */ = {isa = PBXBuildFile; fileRef = 5FF0DC5D1FE9708400DF65CF /* Stress.png */; };
+		5FF0DC831FE9709400DF65CF /* Sucking Thumb.png in Resources */ = {isa = PBXBuildFile; fileRef = 5FF0DC5E1FE9708600DF65CF /* Sucking Thumb.png */; };
+		5FF0DC841FE9709400DF65CF /* Face Palm.png in Resources */ = {isa = PBXBuildFile; fileRef = 5FF0DC5F1FE9708700DF65CF /* Face Palm.png */; };
+		5FF0DC861FE9709400DF65CF /* Studying.png in Resources */ = {isa = PBXBuildFile; fileRef = 5FF0DC611FE9708A00DF65CF /* Studying.png */; };
+		5FF0DC871FE9709400DF65CF /* Tennis Swing.png in Resources */ = {isa = PBXBuildFile; fileRef = 5FF0DC621FE9708B00DF65CF /* Tennis Swing.png */; };
+		5FF0DC881FE9709400DF65CF /* Climbing Tree.png in Resources */ = {isa = PBXBuildFile; fileRef = 5FF0DC631FE9708D00DF65CF /* Climbing Tree.png */; };
+		5FF0DC891FE9709400DF65CF /* Walking in Woods.png in Resources */ = {isa = PBXBuildFile; fileRef = 5FF0DC641FE9708E00DF65CF /* Walking in Woods.png */; };
+		5FF0DC8A1FE9709400DF65CF /* Blow Kisses.png in Resources */ = {isa = PBXBuildFile; fileRef = 5FF0DC651FE9708F00DF65CF /* Blow Kisses.png */; };
+		5FF0DC8B1FE9709400DF65CF /* Checking Weather.png in Resources */ = {isa = PBXBuildFile; fileRef = 5FF0DC661FE9709000DF65CF /* Checking Weather.png */; };
+		5FF0DC8C1FE9709400DF65CF /* Gator Mouth 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 5FF0DC671FE9709100DF65CF /* Gator Mouth 1.png */; };
+		5FF0DC8D1FE9709400DF65CF /* Hungry.png in Resources */ = {isa = PBXBuildFile; fileRef = 5FF0DC681FE9709300DF65CF /* Hungry.png */; };
+		5FF0DC8E1FE9709400DF65CF /* Autumn.png in Resources */ = {isa = PBXBuildFile; fileRef = 5FF0DC691FE9709400DF65CF /* Autumn.png */; };
+		5FF0DCB41FE970D200DF65CF /* Jumping in Lake-key.png in Resources */ = {isa = PBXBuildFile; fileRef = 5FF0DC8F1FE970C100DF65CF /* Jumping in Lake-key.png */; };
+		5FF0DCB51FE970D200DF65CF /* Stranger Things-key.png in Resources */ = {isa = PBXBuildFile; fileRef = 5FF0DC901FE970C100DF65CF /* Stranger Things-key.png */; };
+		5FF0DCB61FE970D200DF65CF /* Checking Weather-key.png in Resources */ = {isa = PBXBuildFile; fileRef = 5FF0DC911FE970C200DF65CF /* Checking Weather-key.png */; };
+		5FF0DCB71FE970D200DF65CF /* Big Kiss-key.png in Resources */ = {isa = PBXBuildFile; fileRef = 5FF0DC921FE970C200DF65CF /* Big Kiss-key.png */; };
+		5FF0DCB81FE970D200DF65CF /* Century Tower-key.png in Resources */ = {isa = PBXBuildFile; fileRef = 5FF0DC931FE970C200DF65CF /* Century Tower-key.png */; };
+		5FF0DCB91FE970D200DF65CF /* Hair Swoop-key.png in Resources */ = {isa = PBXBuildFile; fileRef = 5FF0DC941FE970C300DF65CF /* Hair Swoop-key.png */; };
+		5FF0DCBA1FE970D200DF65CF /* Sucking Thumb-key.png in Resources */ = {isa = PBXBuildFile; fileRef = 5FF0DC951FE970C300DF65CF /* Sucking Thumb-key.png */; };
+		5FF0DCBB1FE970D200DF65CF /* Tennis Swing-key.png in Resources */ = {isa = PBXBuildFile; fileRef = 5FF0DC961FE970C300DF65CF /* Tennis Swing-key.png */; };
+		5FF0DCBC1FE970D200DF65CF /* Face Palm-key.png in Resources */ = {isa = PBXBuildFile; fileRef = 5FF0DC971FE970C400DF65CF /* Face Palm-key.png */; };
+		5FF0DCBD1FE970D200DF65CF /* Chomp-key.png in Resources */ = {isa = PBXBuildFile; fileRef = 5FF0DC981FE970C400DF65CF /* Chomp-key.png */; };
+		5FF0DCBE1FE970D200DF65CF /* Library-key.png in Resources */ = {isa = PBXBuildFile; fileRef = 5FF0DC991FE970C500DF65CF /* Library-key.png */; };
+		5FF0DCBF1FE970D200DF65CF /* Running-key.png in Resources */ = {isa = PBXBuildFile; fileRef = 5FF0DC9A1FE970C600DF65CF /* Running-key.png */; };
+		5FF0DCC01FE970D200DF65CF /* Gator Mouth 1-key.png in Resources */ = {isa = PBXBuildFile; fileRef = 5FF0DC9B1FE970C600DF65CF /* Gator Mouth 1-key.png */; };
+		5FF0DCC11FE970D200DF65CF /* Falling Racket-key.png in Resources */ = {isa = PBXBuildFile; fileRef = 5FF0DC9C1FE970C700DF65CF /* Falling Racket-key.png */; };
+		5FF0DCC21FE970D200DF65CF /* Hungry-key.png in Resources */ = {isa = PBXBuildFile; fileRef = 5FF0DC9D1FE970C700DF65CF /* Hungry-key.png */; };
+		5FF0DCC31FE970D200DF65CF /* Stress-key.png in Resources */ = {isa = PBXBuildFile; fileRef = 5FF0DC9E1FE970C800DF65CF /* Stress-key.png */; };
+		5FF0DCC41FE970D200DF65CF /* Studying-key.png in Resources */ = {isa = PBXBuildFile; fileRef = 5FF0DC9F1FE970C800DF65CF /* Studying-key.png */; };
+		5FF0DCC51FE970D200DF65CF /* Walking in Woods-key.png in Resources */ = {isa = PBXBuildFile; fileRef = 5FF0DCA01FE970C900DF65CF /* Walking in Woods-key.png */; };
+		5FF0DCC61FE970D200DF65CF /* Sitting by Lake 2-key.png in Resources */ = {isa = PBXBuildFile; fileRef = 5FF0DCA11FE970C900DF65CF /* Sitting by Lake 2-key.png */; };
+		5FF0DCC71FE970D200DF65CF /* Blow Kisses-key.png in Resources */ = {isa = PBXBuildFile; fileRef = 5FF0DCA21FE970C900DF65CF /* Blow Kisses-key.png */; };
+		5FF0DCC81FE970D200DF65CF /* Clapping-key.png in Resources */ = {isa = PBXBuildFile; fileRef = 5FF0DCA31FE970CA00DF65CF /* Clapping-key.png */; };
+		5FF0DCC91FE970D200DF65CF /* Elbows-key.png in Resources */ = {isa = PBXBuildFile; fileRef = 5FF0DCA41FE970CA00DF65CF /* Elbows-key.png */; };
+		5FF0DCCA1FE970D200DF65CF /* Addicted to Phone-key.png in Resources */ = {isa = PBXBuildFile; fileRef = 5FF0DCA51FE970CB00DF65CF /* Addicted to Phone-key.png */; };
+		5FF0DCCB1FE970D200DF65CF /* Albert-key.png in Resources */ = {isa = PBXBuildFile; fileRef = 5FF0DCA61FE970CB00DF65CF /* Albert-key.png */; };
+		5FF0DCCC1FE970D200DF65CF /* Gator Mouth 2-key.png in Resources */ = {isa = PBXBuildFile; fileRef = 5FF0DCA71FE970CC00DF65CF /* Gator Mouth 2-key.png */; };
+		5FF0DCCD1FE970D200DF65CF /* Sitting by Lake 1-key.png in Resources */ = {isa = PBXBuildFile; fileRef = 5FF0DCA81FE970CC00DF65CF /* Sitting by Lake 1-key.png */; };
+		5FF0DCCE1FE970D200DF65CF /* Stadium-key.png in Resources */ = {isa = PBXBuildFile; fileRef = 5FF0DCA91FE970CD00DF65CF /* Stadium-key.png */; };
+		5FF0DCCF1FE970D200DF65CF /* Laugh-key.png in Resources */ = {isa = PBXBuildFile; fileRef = 5FF0DCAA1FE970CD00DF65CF /* Laugh-key.png */; };
+		5FF0DCD01FE970D200DF65CF /* Autumn-key.png in Resources */ = {isa = PBXBuildFile; fileRef = 5FF0DCAB1FE970CE00DF65CF /* Autumn-key.png */; };
+		5FF0DCD11FE970D200DF65CF /* The Swamp-key.png in Resources */ = {isa = PBXBuildFile; fileRef = 5FF0DCAC1FE970CE00DF65CF /* The Swamp-key.png */; };
+		5FF0DCD21FE970D200DF65CF /* Waving-key.png in Resources */ = {isa = PBXBuildFile; fileRef = 5FF0DCAD1FE970CF00DF65CF /* Waving-key.png */; };
+		5FF0DCD31FE970D200DF65CF /* Smelly-key.png in Resources */ = {isa = PBXBuildFile; fileRef = 5FF0DCAE1FE970CF00DF65CF /* Smelly-key.png */; };
+		5FF0DCD41FE970D200DF65CF /* Hit by Tennis Ball-key.png in Resources */ = {isa = PBXBuildFile; fileRef = 5FF0DCAF1FE970D000DF65CF /* Hit by Tennis Ball-key.png */; };
+		5FF0DCD51FE970D200DF65CF /* Scheming-key.png in Resources */ = {isa = PBXBuildFile; fileRef = 5FF0DCB01FE970D000DF65CF /* Scheming-key.png */; };
+		5FF0DCD61FE970D200DF65CF /* Covering Ears-key.png in Resources */ = {isa = PBXBuildFile; fileRef = 5FF0DCB11FE970D100DF65CF /* Covering Ears-key.png */; };
+		5FF0DCD71FE970D200DF65CF /* Climbing Tree-key.png in Resources */ = {isa = PBXBuildFile; fileRef = 5FF0DCB21FE970D100DF65CF /* Climbing Tree-key.png */; };
+		5FF0DCD81FE970D200DF65CF /* Sleepy-key.png in Resources */ = {isa = PBXBuildFile; fileRef = 5FF0DCB31FE970D200DF65CF /* Sleepy-key.png */; };
+		5FF0DCDA1FE9735900DF65CF /* Gator Mouth 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 5FF0DCD91FE9735800DF65CF /* Gator Mouth 2.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +137,94 @@
 		5F6FEC8B1FE61A3D00E56C94 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
 		5F6FEC8D1FE61A3D00E56C94 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5F6FEC8F1FE61A3D00E56C94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5F6FEC991FE61B3F00E56C94 /* FrogGIFCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrogGIFCollectionViewController.swift; sourceTree = "<group>"; };
+		5F6FEC9B1FE61B6500E56C94 /* FrogGIFSectionHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrogGIFSectionHeader.swift; sourceTree = "<group>"; };
+		5F6FEC9D1FE61B9D00E56C94 /* FrogGIFData.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = FrogGIFData.plist; sourceTree = "<group>"; };
+		5F6FEC9F1FE61BDB00E56C94 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		5F6FECA11FE61BF900E56C94 /* DataHelperMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataHelperMethod.swift; sourceTree = "<group>"; };
+		5FD550D2258FF7BB00F3AA32 /* Lazy boy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Lazy boy.png"; sourceTree = "<group>"; };
+		5FD550D8258FF91F00F3AA32 /* Lazy boy-key.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Lazy boy-key.png"; sourceTree = "<group>"; };
+		5FD550DC258FFAFD00F3AA32 /* Scarf.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Scarf.png; sourceTree = "<group>"; };
+		5FD550E0258FFB0300F3AA32 /* Snow fall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Snow fall.png"; sourceTree = "<group>"; };
+		5FD550EE258FFB4A00F3AA32 /* Snowball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Snowball.png; sourceTree = "<group>"; };
+		5FD550F2258FFB5000F3AA32 /* Scarf-key.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Scarf-key.png"; sourceTree = "<group>"; };
+		5FD550F6258FFB5300F3AA32 /* Snow fall-key.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Snow fall-key.png"; sourceTree = "<group>"; };
+		5FD550FA258FFB7000F3AA32 /* Snowball-key.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Snowball-key.png"; sourceTree = "<group>"; };
+		5FF0DC431FE8D91900DF65CF /* ODRManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ODRManager.swift; sourceTree = "<group>"; };
+		5FF0DC451FE9706D00DF65CF /* Elbows.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Elbows.png; sourceTree = "<group>"; };
+		5FF0DC461FE9706E00DF65CF /* Sitting by Lake 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Sitting by Lake 2.png"; sourceTree = "<group>"; };
+		5FF0DC471FE9706F00DF65CF /* Library.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Library.png; sourceTree = "<group>"; };
+		5FF0DC481FE9707000DF65CF /* Albert.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Albert.png; sourceTree = "<group>"; };
+		5FF0DC491FE9707000DF65CF /* Running.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Running.png; sourceTree = "<group>"; };
+		5FF0DC4A1FE9707100DF65CF /* Hit by Tennis Ball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Hit by Tennis Ball.png"; sourceTree = "<group>"; };
+		5FF0DC4B1FE9707200DF65CF /* Century Tower.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Century Tower.png"; sourceTree = "<group>"; };
+		5FF0DC4C1FE9707200DF65CF /* Chomp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Chomp.png; sourceTree = "<group>"; };
+		5FF0DC4D1FE9707400DF65CF /* Stadium.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Stadium.png; sourceTree = "<group>"; };
+		5FF0DC4E1FE9707500DF65CF /* The Swamp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "The Swamp.png"; sourceTree = "<group>"; };
+		5FF0DC4F1FE9707600DF65CF /* Stranger Things.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Stranger Things.png"; sourceTree = "<group>"; };
+		5FF0DC501FE9707700DF65CF /* Sitting by Lake 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Sitting by Lake 1.png"; sourceTree = "<group>"; };
+		5FF0DC511FE9707800DF65CF /* Clapping.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Clapping.png; sourceTree = "<group>"; };
+		5FF0DC521FE9707900DF65CF /* Hair Swoop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Hair Swoop.png"; sourceTree = "<group>"; };
+		5FF0DC531FE9707A00DF65CF /* Laugh.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Laugh.png; sourceTree = "<group>"; };
+		5FF0DC541FE9707A00DF65CF /* Scheming.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Scheming.png; sourceTree = "<group>"; };
+		5FF0DC551FE9707B00DF65CF /* Jumping in Lake.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Jumping in Lake.png"; sourceTree = "<group>"; };
+		5FF0DC561FE9707C00DF65CF /* Falling Racket.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Falling Racket.png"; sourceTree = "<group>"; };
+		5FF0DC571FE9707D00DF65CF /* Sleepy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Sleepy.png; sourceTree = "<group>"; };
+		5FF0DC581FE9707E00DF65CF /* Smelly.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Smelly.png; sourceTree = "<group>"; };
+		5FF0DC591FE9707F00DF65CF /* Waving.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Waving.png; sourceTree = "<group>"; };
+		5FF0DC5A1FE9708000DF65CF /* Big Kiss.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Big Kiss.png"; sourceTree = "<group>"; };
+		5FF0DC5B1FE9708100DF65CF /* Covering Ears.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Covering Ears.png"; sourceTree = "<group>"; };
+		5FF0DC5C1FE9708200DF65CF /* Addicted to Phone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Addicted to Phone.png"; sourceTree = "<group>"; };
+		5FF0DC5D1FE9708400DF65CF /* Stress.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Stress.png; sourceTree = "<group>"; };
+		5FF0DC5E1FE9708600DF65CF /* Sucking Thumb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Sucking Thumb.png"; sourceTree = "<group>"; };
+		5FF0DC5F1FE9708700DF65CF /* Face Palm.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Face Palm.png"; sourceTree = "<group>"; };
+		5FF0DC611FE9708A00DF65CF /* Studying.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Studying.png; sourceTree = "<group>"; };
+		5FF0DC621FE9708B00DF65CF /* Tennis Swing.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Tennis Swing.png"; sourceTree = "<group>"; };
+		5FF0DC631FE9708D00DF65CF /* Climbing Tree.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Climbing Tree.png"; sourceTree = "<group>"; };
+		5FF0DC641FE9708E00DF65CF /* Walking in Woods.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Walking in Woods.png"; sourceTree = "<group>"; };
+		5FF0DC651FE9708F00DF65CF /* Blow Kisses.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Blow Kisses.png"; sourceTree = "<group>"; };
+		5FF0DC661FE9709000DF65CF /* Checking Weather.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Checking Weather.png"; sourceTree = "<group>"; };
+		5FF0DC671FE9709100DF65CF /* Gator Mouth 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Gator Mouth 1.png"; sourceTree = "<group>"; };
+		5FF0DC681FE9709300DF65CF /* Hungry.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Hungry.png; sourceTree = "<group>"; };
+		5FF0DC691FE9709400DF65CF /* Autumn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Autumn.png; sourceTree = "<group>"; };
+		5FF0DC8F1FE970C100DF65CF /* Jumping in Lake-key.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Jumping in Lake-key.png"; sourceTree = "<group>"; };
+		5FF0DC901FE970C100DF65CF /* Stranger Things-key.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Stranger Things-key.png"; sourceTree = "<group>"; };
+		5FF0DC911FE970C200DF65CF /* Checking Weather-key.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Checking Weather-key.png"; sourceTree = "<group>"; };
+		5FF0DC921FE970C200DF65CF /* Big Kiss-key.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Big Kiss-key.png"; sourceTree = "<group>"; };
+		5FF0DC931FE970C200DF65CF /* Century Tower-key.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Century Tower-key.png"; sourceTree = "<group>"; };
+		5FF0DC941FE970C300DF65CF /* Hair Swoop-key.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Hair Swoop-key.png"; sourceTree = "<group>"; };
+		5FF0DC951FE970C300DF65CF /* Sucking Thumb-key.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Sucking Thumb-key.png"; sourceTree = "<group>"; };
+		5FF0DC961FE970C300DF65CF /* Tennis Swing-key.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Tennis Swing-key.png"; sourceTree = "<group>"; };
+		5FF0DC971FE970C400DF65CF /* Face Palm-key.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Face Palm-key.png"; sourceTree = "<group>"; };
+		5FF0DC981FE970C400DF65CF /* Chomp-key.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Chomp-key.png"; sourceTree = "<group>"; };
+		5FF0DC991FE970C500DF65CF /* Library-key.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Library-key.png"; sourceTree = "<group>"; };
+		5FF0DC9A1FE970C600DF65CF /* Running-key.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Running-key.png"; sourceTree = "<group>"; };
+		5FF0DC9B1FE970C600DF65CF /* Gator Mouth 1-key.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Gator Mouth 1-key.png"; sourceTree = "<group>"; };
+		5FF0DC9C1FE970C700DF65CF /* Falling Racket-key.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Falling Racket-key.png"; sourceTree = "<group>"; };
+		5FF0DC9D1FE970C700DF65CF /* Hungry-key.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Hungry-key.png"; sourceTree = "<group>"; };
+		5FF0DC9E1FE970C800DF65CF /* Stress-key.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Stress-key.png"; sourceTree = "<group>"; };
+		5FF0DC9F1FE970C800DF65CF /* Studying-key.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Studying-key.png"; sourceTree = "<group>"; };
+		5FF0DCA01FE970C900DF65CF /* Walking in Woods-key.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Walking in Woods-key.png"; sourceTree = "<group>"; };
+		5FF0DCA11FE970C900DF65CF /* Sitting by Lake 2-key.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Sitting by Lake 2-key.png"; sourceTree = "<group>"; };
+		5FF0DCA21FE970C900DF65CF /* Blow Kisses-key.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Blow Kisses-key.png"; sourceTree = "<group>"; };
+		5FF0DCA31FE970CA00DF65CF /* Clapping-key.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Clapping-key.png"; sourceTree = "<group>"; };
+		5FF0DCA41FE970CA00DF65CF /* Elbows-key.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Elbows-key.png"; sourceTree = "<group>"; };
+		5FF0DCA51FE970CB00DF65CF /* Addicted to Phone-key.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Addicted to Phone-key.png"; sourceTree = "<group>"; };
+		5FF0DCA61FE970CB00DF65CF /* Albert-key.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Albert-key.png"; sourceTree = "<group>"; };
+		5FF0DCA71FE970CC00DF65CF /* Gator Mouth 2-key.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Gator Mouth 2-key.png"; sourceTree = "<group>"; };
+		5FF0DCA81FE970CC00DF65CF /* Sitting by Lake 1-key.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Sitting by Lake 1-key.png"; sourceTree = "<group>"; };
+		5FF0DCA91FE970CD00DF65CF /* Stadium-key.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Stadium-key.png"; sourceTree = "<group>"; };
+		5FF0DCAA1FE970CD00DF65CF /* Laugh-key.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Laugh-key.png"; sourceTree = "<group>"; };
+		5FF0DCAB1FE970CE00DF65CF /* Autumn-key.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Autumn-key.png"; sourceTree = "<group>"; };
+		5FF0DCAC1FE970CE00DF65CF /* The Swamp-key.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "The Swamp-key.png"; sourceTree = "<group>"; };
+		5FF0DCAD1FE970CF00DF65CF /* Waving-key.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Waving-key.png"; sourceTree = "<group>"; };
+		5FF0DCAE1FE970CF00DF65CF /* Smelly-key.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Smelly-key.png"; sourceTree = "<group>"; };
+		5FF0DCAF1FE970D000DF65CF /* Hit by Tennis Ball-key.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Hit by Tennis Ball-key.png"; sourceTree = "<group>"; };
+		5FF0DCB01FE970D000DF65CF /* Scheming-key.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Scheming-key.png"; sourceTree = "<group>"; };
+		5FF0DCB11FE970D100DF65CF /* Covering Ears-key.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Covering Ears-key.png"; sourceTree = "<group>"; };
+		5FF0DCB21FE970D100DF65CF /* Climbing Tree-key.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Climbing Tree-key.png"; sourceTree = "<group>"; };
+		5FF0DCB31FE970D200DF65CF /* Sleepy-key.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Sleepy-key.png"; sourceTree = "<group>"; };
+		5FF0DCD91FE9735800DF65CF /* Gator Mouth 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Gator Mouth 2.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,12 +278,117 @@
 		5F6FEC871FE61A3D00E56C94 /* Frog GIFs MessagesExtension */ = {
 			isa = PBXGroup;
 			children = (
+				5F6FED381FE6223100E56C94 /* Key images */,
+				5F6FECED1FE621D700E56C94 /* GIFs */,
 				5F6FEC881FE61A3D00E56C94 /* MessagesViewController.swift */,
 				5F6FEC8A1FE61A3D00E56C94 /* MainInterface.storyboard */,
 				5F6FEC8D1FE61A3D00E56C94 /* Assets.xcassets */,
 				5F6FEC8F1FE61A3D00E56C94 /* Info.plist */,
+				5F6FEC991FE61B3F00E56C94 /* FrogGIFCollectionViewController.swift */,
+				5F6FEC9B1FE61B6500E56C94 /* FrogGIFSectionHeader.swift */,
+				5F6FEC9D1FE61B9D00E56C94 /* FrogGIFData.plist */,
+				5F6FEC9F1FE61BDB00E56C94 /* CollectionViewCell.swift */,
+				5F6FECA11FE61BF900E56C94 /* DataHelperMethod.swift */,
+				5FF0DC431FE8D91900DF65CF /* ODRManager.swift */,
 			);
 			path = "Frog GIFs MessagesExtension";
+			sourceTree = "<group>";
+		};
+		5F6FECED1FE621D700E56C94 /* GIFs */ = {
+			isa = PBXGroup;
+			children = (
+				5FF0DC5C1FE9708200DF65CF /* Addicted to Phone.png */,
+				5FF0DC481FE9707000DF65CF /* Albert.png */,
+				5FF0DC691FE9709400DF65CF /* Autumn.png */,
+				5FF0DC5A1FE9708000DF65CF /* Big Kiss.png */,
+				5FF0DC651FE9708F00DF65CF /* Blow Kisses.png */,
+				5FF0DC4B1FE9707200DF65CF /* Century Tower.png */,
+				5FF0DC661FE9709000DF65CF /* Checking Weather.png */,
+				5FF0DC4C1FE9707200DF65CF /* Chomp.png */,
+				5FF0DC511FE9707800DF65CF /* Clapping.png */,
+				5FF0DC631FE9708D00DF65CF /* Climbing Tree.png */,
+				5FF0DC5B1FE9708100DF65CF /* Covering Ears.png */,
+				5FF0DC451FE9706D00DF65CF /* Elbows.png */,
+				5FF0DC5F1FE9708700DF65CF /* Face Palm.png */,
+				5FF0DC561FE9707C00DF65CF /* Falling Racket.png */,
+				5FF0DC671FE9709100DF65CF /* Gator Mouth 1.png */,
+				5FF0DCD91FE9735800DF65CF /* Gator Mouth 2.png */,
+				5FF0DC521FE9707900DF65CF /* Hair Swoop.png */,
+				5FF0DC4A1FE9707100DF65CF /* Hit by Tennis Ball.png */,
+				5FF0DC681FE9709300DF65CF /* Hungry.png */,
+				5FF0DC551FE9707B00DF65CF /* Jumping in Lake.png */,
+				5FF0DC531FE9707A00DF65CF /* Laugh.png */,
+				5FF0DC471FE9706F00DF65CF /* Library.png */,
+				5FF0DC491FE9707000DF65CF /* Running.png */,
+				5FF0DC541FE9707A00DF65CF /* Scheming.png */,
+				5FF0DC501FE9707700DF65CF /* Sitting by Lake 1.png */,
+				5FF0DC461FE9706E00DF65CF /* Sitting by Lake 2.png */,
+				5FF0DC571FE9707D00DF65CF /* Sleepy.png */,
+				5FF0DC581FE9707E00DF65CF /* Smelly.png */,
+				5FF0DC4D1FE9707400DF65CF /* Stadium.png */,
+				5FF0DC4F1FE9707600DF65CF /* Stranger Things.png */,
+				5FF0DC5D1FE9708400DF65CF /* Stress.png */,
+				5FF0DC611FE9708A00DF65CF /* Studying.png */,
+				5FF0DC5E1FE9708600DF65CF /* Sucking Thumb.png */,
+				5FF0DC621FE9708B00DF65CF /* Tennis Swing.png */,
+				5FF0DC4E1FE9707500DF65CF /* The Swamp.png */,
+				5FF0DC641FE9708E00DF65CF /* Walking in Woods.png */,
+				5FF0DC591FE9707F00DF65CF /* Waving.png */,
+				5FD550D2258FF7BB00F3AA32 /* Lazy boy.png */,
+				5FD550DC258FFAFD00F3AA32 /* Scarf.png */,
+				5FD550E0258FFB0300F3AA32 /* Snow fall.png */,
+				5FD550EE258FFB4A00F3AA32 /* Snowball.png */,
+			);
+			name = GIFs;
+			path = GIFa;
+			sourceTree = "<group>";
+		};
+		5F6FED381FE6223100E56C94 /* Key images */ = {
+			isa = PBXGroup;
+			children = (
+				5FF0DCA51FE970CB00DF65CF /* Addicted to Phone-key.png */,
+				5FF0DCA61FE970CB00DF65CF /* Albert-key.png */,
+				5FF0DCAB1FE970CE00DF65CF /* Autumn-key.png */,
+				5FF0DC921FE970C200DF65CF /* Big Kiss-key.png */,
+				5FF0DCA21FE970C900DF65CF /* Blow Kisses-key.png */,
+				5FF0DC931FE970C200DF65CF /* Century Tower-key.png */,
+				5FF0DC911FE970C200DF65CF /* Checking Weather-key.png */,
+				5FF0DC981FE970C400DF65CF /* Chomp-key.png */,
+				5FF0DCA31FE970CA00DF65CF /* Clapping-key.png */,
+				5FF0DCB21FE970D100DF65CF /* Climbing Tree-key.png */,
+				5FF0DCB11FE970D100DF65CF /* Covering Ears-key.png */,
+				5FF0DCA41FE970CA00DF65CF /* Elbows-key.png */,
+				5FF0DC971FE970C400DF65CF /* Face Palm-key.png */,
+				5FF0DC9C1FE970C700DF65CF /* Falling Racket-key.png */,
+				5FF0DC9B1FE970C600DF65CF /* Gator Mouth 1-key.png */,
+				5FF0DCA71FE970CC00DF65CF /* Gator Mouth 2-key.png */,
+				5FF0DC941FE970C300DF65CF /* Hair Swoop-key.png */,
+				5FF0DCAF1FE970D000DF65CF /* Hit by Tennis Ball-key.png */,
+				5FF0DC9D1FE970C700DF65CF /* Hungry-key.png */,
+				5FF0DC8F1FE970C100DF65CF /* Jumping in Lake-key.png */,
+				5FF0DCAA1FE970CD00DF65CF /* Laugh-key.png */,
+				5FF0DC991FE970C500DF65CF /* Library-key.png */,
+				5FF0DC9A1FE970C600DF65CF /* Running-key.png */,
+				5FF0DCB01FE970D000DF65CF /* Scheming-key.png */,
+				5FF0DCA81FE970CC00DF65CF /* Sitting by Lake 1-key.png */,
+				5FF0DCA11FE970C900DF65CF /* Sitting by Lake 2-key.png */,
+				5FF0DCB31FE970D200DF65CF /* Sleepy-key.png */,
+				5FF0DCAE1FE970CF00DF65CF /* Smelly-key.png */,
+				5FF0DCA91FE970CD00DF65CF /* Stadium-key.png */,
+				5FF0DC901FE970C100DF65CF /* Stranger Things-key.png */,
+				5FF0DC9E1FE970C800DF65CF /* Stress-key.png */,
+				5FF0DC9F1FE970C800DF65CF /* Studying-key.png */,
+				5FF0DC951FE970C300DF65CF /* Sucking Thumb-key.png */,
+				5FF0DC961FE970C300DF65CF /* Tennis Swing-key.png */,
+				5FF0DCAC1FE970CE00DF65CF /* The Swamp-key.png */,
+				5FF0DCA01FE970C900DF65CF /* Walking in Woods-key.png */,
+				5FF0DCAD1FE970CF00DF65CF /* Waving-key.png */,
+				5FD550D8258FF91F00F3AA32 /* Lazy boy-key.png */,
+				5FD550F2258FFB5000F3AA32 /* Scarf-key.png */,
+				5FD550F6258FFB5300F3AA32 /* Snow fall-key.png */,
+				5FD550FA258FFB7000F3AA32 /* Snowball-key.png */,
+			);
+			path = "Key images";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -153,6 +434,46 @@
 		5F6FEC701FE61A3D00E56C94 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				KnownAssetTags = (
+					Addicted_to_phone,
+					Albert,
+					Autumn,
+					"Big kiss",
+					"Blow Kisses",
+					"Century Tower",
+					"Checking Weather",
+					Chomp,
+					Clapping,
+					"Climbing Tree",
+					"Covering Ears",
+					Elbows,
+					"Face Palm",
+					"Falling Racket",
+					"Gator Mouth 1",
+					"Gator Mouth 2",
+					"Hair Swoop",
+					"Hit by Tennis Ball",
+					Hungry,
+					"Jumping in Lake",
+					Laugh,
+					Library,
+					Running,
+					Scheming,
+					"Sitting by Lake",
+					"Sitting by Lake 1",
+					"Sitting by Lake 2",
+					Sleepy,
+					Smelly,
+					Stadium,
+					"Stranger Things",
+					Stress,
+					Studing,
+					"Sucking Thumb",
+					"Tennis Swing",
+					"The Swamp",
+					"Walking in the Woods",
+					Waving,
+				);
 				LastSwiftUpdateCheck = 0920;
 				LastUpgradeCheck = 0920;
 				ORGANIZATIONNAME = "Mark Lawrence";
@@ -199,8 +520,91 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5FD550F7258FFB5300F3AA32 /* Snow fall-key.png in Resources */,
 				5F6FEC8E1FE61A3D00E56C94 /* Assets.xcassets in Resources */,
+				5FF0DC801FE9709400DF65CF /* Covering Ears.png in Resources */,
+				5FF0DC741FE9709400DF65CF /* Stranger Things.png in Resources */,
+				5FF0DCC31FE970D200DF65CF /* Stress-key.png in Resources */,
+				5FF0DCB41FE970D200DF65CF /* Jumping in Lake-key.png in Resources */,
+				5FF0DC831FE9709400DF65CF /* Sucking Thumb.png in Resources */,
+				5FF0DCB91FE970D200DF65CF /* Hair Swoop-key.png in Resources */,
+				5FD550D3258FF7BB00F3AA32 /* Lazy boy.png in Resources */,
+				5FF0DCBB1FE970D200DF65CF /* Tennis Swing-key.png in Resources */,
+				5FF0DC6F1FE9709400DF65CF /* Hit by Tennis Ball.png in Resources */,
+				5FF0DCC51FE970D200DF65CF /* Walking in Woods-key.png in Resources */,
+				5FD550EF258FFB4A00F3AA32 /* Snowball.png in Resources */,
+				5FF0DC771FE9709400DF65CF /* Hair Swoop.png in Resources */,
+				5FF0DC841FE9709400DF65CF /* Face Palm.png in Resources */,
+				5FF0DC781FE9709400DF65CF /* Laugh.png in Resources */,
+				5FF0DCD61FE970D200DF65CF /* Covering Ears-key.png in Resources */,
+				5FF0DCD01FE970D200DF65CF /* Autumn-key.png in Resources */,
+				5FF0DCCD1FE970D200DF65CF /* Sitting by Lake 1-key.png in Resources */,
+				5FF0DC721FE9709400DF65CF /* Stadium.png in Resources */,
+				5FF0DCCE1FE970D200DF65CF /* Stadium-key.png in Resources */,
+				5FF0DC6C1FE9709400DF65CF /* Library.png in Resources */,
+				5FF0DC791FE9709400DF65CF /* Scheming.png in Resources */,
+				5FF0DCCB1FE970D200DF65CF /* Albert-key.png in Resources */,
+				5FF0DC8B1FE9709400DF65CF /* Checking Weather.png in Resources */,
+				5FF0DCB61FE970D200DF65CF /* Checking Weather-key.png in Resources */,
+				5FF0DCD21FE970D200DF65CF /* Waving-key.png in Resources */,
+				5FF0DCC61FE970D200DF65CF /* Sitting by Lake 2-key.png in Resources */,
+				5FF0DC7E1FE9709400DF65CF /* Waving.png in Resources */,
+				5FF0DC711FE9709400DF65CF /* Chomp.png in Resources */,
+				5FF0DC751FE9709400DF65CF /* Sitting by Lake 1.png in Resources */,
+				5FF0DCC81FE970D200DF65CF /* Clapping-key.png in Resources */,
+				5FD550D9258FF91F00F3AA32 /* Lazy boy-key.png in Resources */,
+				5FF0DC7D1FE9709400DF65CF /* Smelly.png in Resources */,
+				5FF0DCC01FE970D200DF65CF /* Gator Mouth 1-key.png in Resources */,
+				5FD550E1258FFB0300F3AA32 /* Snow fall.png in Resources */,
+				5FF0DCC11FE970D200DF65CF /* Falling Racket-key.png in Resources */,
+				5FF0DCC21FE970D200DF65CF /* Hungry-key.png in Resources */,
+				5FF0DC761FE9709400DF65CF /* Clapping.png in Resources */,
+				5FF0DC7A1FE9709400DF65CF /* Jumping in Lake.png in Resources */,
+				5FF0DC8D1FE9709400DF65CF /* Hungry.png in Resources */,
+				5FF0DCB51FE970D200DF65CF /* Stranger Things-key.png in Resources */,
+				5FF0DC6A1FE9709400DF65CF /* Elbows.png in Resources */,
+				5FF0DCC41FE970D200DF65CF /* Studying-key.png in Resources */,
+				5FF0DCBF1FE970D200DF65CF /* Running-key.png in Resources */,
+				5FD550FB258FFB7100F3AA32 /* Snowball-key.png in Resources */,
+				5F6FEC9E1FE61B9D00E56C94 /* FrogGIFData.plist in Resources */,
+				5FD550DD258FFAFD00F3AA32 /* Scarf.png in Resources */,
+				5FF0DCB71FE970D200DF65CF /* Big Kiss-key.png in Resources */,
+				5FF0DC7F1FE9709400DF65CF /* Big Kiss.png in Resources */,
+				5FF0DC881FE9709400DF65CF /* Climbing Tree.png in Resources */,
+				5FF0DC7C1FE9709400DF65CF /* Sleepy.png in Resources */,
+				5FF0DCCF1FE970D200DF65CF /* Laugh-key.png in Resources */,
 				5F6FEC8C1FE61A3D00E56C94 /* MainInterface.storyboard in Resources */,
+				5FF0DCD81FE970D200DF65CF /* Sleepy-key.png in Resources */,
+				5FF0DC861FE9709400DF65CF /* Studying.png in Resources */,
+				5FF0DCD11FE970D200DF65CF /* The Swamp-key.png in Resources */,
+				5FF0DC731FE9709400DF65CF /* The Swamp.png in Resources */,
+				5FF0DCB81FE970D200DF65CF /* Century Tower-key.png in Resources */,
+				5FF0DC8C1FE9709400DF65CF /* Gator Mouth 1.png in Resources */,
+				5FF0DC8E1FE9709400DF65CF /* Autumn.png in Resources */,
+				5FF0DC701FE9709400DF65CF /* Century Tower.png in Resources */,
+				5FD550F3258FFB5000F3AA32 /* Scarf-key.png in Resources */,
+				5FF0DCCA1FE970D200DF65CF /* Addicted to Phone-key.png in Resources */,
+				5FF0DC8A1FE9709400DF65CF /* Blow Kisses.png in Resources */,
+				5FF0DCBA1FE970D200DF65CF /* Sucking Thumb-key.png in Resources */,
+				5FF0DCC91FE970D200DF65CF /* Elbows-key.png in Resources */,
+				5FF0DC891FE9709400DF65CF /* Walking in Woods.png in Resources */,
+				5FF0DC6E1FE9709400DF65CF /* Running.png in Resources */,
+				5FF0DCD41FE970D200DF65CF /* Hit by Tennis Ball-key.png in Resources */,
+				5FF0DCCC1FE970D200DF65CF /* Gator Mouth 2-key.png in Resources */,
+				5FF0DCD71FE970D200DF65CF /* Climbing Tree-key.png in Resources */,
+				5FF0DCD31FE970D200DF65CF /* Smelly-key.png in Resources */,
+				5FF0DC6D1FE9709400DF65CF /* Albert.png in Resources */,
+				5FF0DC811FE9709400DF65CF /* Addicted to Phone.png in Resources */,
+				5FF0DC871FE9709400DF65CF /* Tennis Swing.png in Resources */,
+				5FF0DC6B1FE9709400DF65CF /* Sitting by Lake 2.png in Resources */,
+				5FF0DC7B1FE9709400DF65CF /* Falling Racket.png in Resources */,
+				5FF0DC821FE9709400DF65CF /* Stress.png in Resources */,
+				5FF0DCBC1FE970D200DF65CF /* Face Palm-key.png in Resources */,
+				5FF0DCBD1FE970D200DF65CF /* Chomp-key.png in Resources */,
+				5FF0DCDA1FE9735900DF65CF /* Gator Mouth 2.png in Resources */,
+				5FF0DCC71FE970D200DF65CF /* Blow Kisses-key.png in Resources */,
+				5FF0DCBE1FE970D200DF65CF /* Library-key.png in Resources */,
+				5FF0DCD51FE970D200DF65CF /* Scheming-key.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -212,6 +616,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				5F6FEC891FE61A3D00E56C94 /* MessagesViewController.swift in Sources */,
+				5F6FEC9C1FE61B6500E56C94 /* FrogGIFSectionHeader.swift in Sources */,
+				5F6FECA01FE61BDB00E56C94 /* CollectionViewCell.swift in Sources */,
+				5F6FECA21FE61BF900E56C94 /* DataHelperMethod.swift in Sources */,
+				5F6FEC9A1FE61B3F00E56C94 /* FrogGIFCollectionViewController.swift in Sources */,
+				5FF0DC441FE8D91900DF65CF /* ODRManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,7 +694,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -336,7 +745,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -349,10 +758,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = PFP4CHD9U5;
+				CURRENT_PROJECT_VERSION = 3;
+				DEVELOPMENT_TEAM = 28L3G462YX;
 				INFOPLIST_FILE = "Frog GIFs MessagesExtension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "marklawrence.Frog-GIFs.MessagesExtension";
+				MARKETING_VERSION = 2.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "marklawrence.Frog-GIFs-v2.MessagesExtension";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 4.0;
@@ -365,10 +776,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = PFP4CHD9U5;
+				CURRENT_PROJECT_VERSION = 3;
+				DEVELOPMENT_TEAM = 28L3G462YX;
 				INFOPLIST_FILE = "Frog GIFs MessagesExtension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "marklawrence.Frog-GIFs.MessagesExtension";
+				MARKETING_VERSION = 2.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "marklawrence.Frog-GIFs-v2.MessagesExtension";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 4.0;
@@ -382,9 +795,10 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = PFP4CHD9U5;
+				DEVELOPMENT_TEAM = 28L3G462YX;
 				INFOPLIST_FILE = "Frog GIFs/Info.plist";
-				PRODUCT_BUNDLE_IDENTIFIER = "marklawrence.Frog-GIFs";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "marklawrence.Frog-GIFs-v2";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -397,9 +811,10 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = PFP4CHD9U5;
+				DEVELOPMENT_TEAM = 28L3G462YX;
 				INFOPLIST_FILE = "Frog GIFs/Info.plist";
-				PRODUCT_BUNDLE_IDENTIFIER = "marklawrence.Frog-GIFs";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "marklawrence.Frog-GIFs-v2";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

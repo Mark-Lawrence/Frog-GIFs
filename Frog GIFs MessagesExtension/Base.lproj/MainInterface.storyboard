@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" systemVersion="17A278a" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="ObA-dk-sSI">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="ObA-dk-sSI">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -9,12 +13,13 @@
         <!--Messages View Controller-->
         <scene sceneID="7MM-of-jgj">
             <objects>
-                <viewController id="ObA-dk-sSI" customClass="MessagesViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="ObA-dk-sSI" customClass="MessagesViewController" customModule="Frog_GIFs_MessagesExtension" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="zMn-AG-sqS">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="528"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hello World" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="d1e-fi-ked">
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="FROG GIFs" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="d1e-fi-ked">
+                                <rect key="frame" x="118.5" y="254" width="84" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
@@ -32,6 +37,127 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="X47-rx-isc" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
+        </scene>
+        <!--FrogGIF Collection View Controller-->
+        <scene sceneID="B7d-UM-W8N">
+            <objects>
+                <collectionViewController storyboardIdentifier="FrogGIFCollectionViewController" automaticallyAdjustsScrollViewInsets="NO" id="uzA-ns-rlp" customClass="FrogGIFCollectionViewController" customModule="Frog_GIFs_MessagesExtension" customModuleProvider="target" sceneMemberID="viewController">
+                    <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" id="FgY-Ja-xXd">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="0.0" id="K2h-Yt-iLX">
+                            <size key="itemSize" width="100" height="100"/>
+                            <size key="headerReferenceSize" width="50" height="50"/>
+                            <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                            <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                        </collectionViewFlowLayout>
+                        <cells>
+                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="Cell" id="QBZ-Pw-iza" customClass="CollectionViewCell" customModule="Frog_GIFs_MessagesExtension" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="50" width="100" height="100"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                    <rect key="frame" x="0.0" y="0.0" width="100" height="100"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2RO-Qr-Igx" customClass="UIImageView">
+                                            <rect key="frame" x="0.0" y="0.0" width="100" height="100"/>
+                                            <subviews>
+                                                <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aF6-y0-BLC">
+                                                    <rect key="frame" x="0.0" y="0.0" width="100" height="21"/>
+                                                    <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="tjC-ZD-ssK">
+                                                        <rect key="frame" x="0.0" y="0.0" width="100" height="21"/>
+                                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                                        <subviews>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="9" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="64N-Ls-Kqs">
+                                                                <rect key="frame" x="2" y="0.0" width="96" height="21"/>
+                                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                                <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                        </subviews>
+                                                        <constraints>
+                                                            <constraint firstItem="64N-Ls-Kqs" firstAttribute="top" secondItem="tjC-ZD-ssK" secondAttribute="top" id="cz4-BO-j2B"/>
+                                                            <constraint firstAttribute="trailing" secondItem="64N-Ls-Kqs" secondAttribute="trailing" constant="2" id="h7b-VO-C3D"/>
+                                                            <constraint firstItem="64N-Ls-Kqs" firstAttribute="leading" secondItem="tjC-ZD-ssK" secondAttribute="leading" constant="2" id="tGs-Ou-RUD"/>
+                                                            <constraint firstAttribute="bottom" secondItem="64N-Ls-Kqs" secondAttribute="bottom" id="xIg-e3-T04"/>
+                                                        </constraints>
+                                                    </view>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="21" id="pLj-QS-7Yk"/>
+                                                    </constraints>
+                                                    <blurEffect style="dark"/>
+                                                </visualEffectView>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="aF6-y0-BLC" firstAttribute="top" secondItem="2RO-Qr-Igx" secondAttribute="top" id="Y8g-xg-5cI"/>
+                                                <constraint firstItem="aF6-y0-BLC" firstAttribute="leading" secondItem="2RO-Qr-Igx" secondAttribute="leading" id="tnu-Wl-JwA"/>
+                                                <constraint firstAttribute="trailing" secondItem="aF6-y0-BLC" secondAttribute="trailing" id="zOB-Pf-IKo"/>
+                                            </constraints>
+                                        </view>
+                                    </subviews>
+                                </view>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="2RO-Qr-Igx" secondAttribute="trailing" id="T0L-N5-pEt"/>
+                                    <constraint firstItem="2RO-Qr-Igx" firstAttribute="leading" secondItem="QBZ-Pw-iza" secondAttribute="leading" id="fhl-37-knc"/>
+                                    <constraint firstItem="2RO-Qr-Igx" firstAttribute="top" secondItem="QBZ-Pw-iza" secondAttribute="top" id="rNo-f8-6tP"/>
+                                    <constraint firstAttribute="bottom" secondItem="2RO-Qr-Igx" secondAttribute="bottom" id="x69-Ff-T0V"/>
+                                </constraints>
+                                <connections>
+                                    <outlet property="stickerView" destination="2RO-Qr-Igx" id="TZX-uh-E58"/>
+                                    <outlet property="textLabel" destination="64N-Ls-Kqs" id="6AY-Gp-hlC"/>
+                                </connections>
+                            </collectionViewCell>
+                        </cells>
+                        <collectionReusableView key="sectionHeaderView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="FrogGIFSectionHeader" id="zFg-pR-bfb" customClass="FrogGIFSectionHeader" customModule="Frog_GIFs_MessagesExtension" customModuleProvider="target">
+                            <rect key="frame" x="0.0" y="0.0" width="375" height="50"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <subviews>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Yrh-SW-E6h">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="50"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SECTION TITLE" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qug-Fv-UNG">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="50"/>
+                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="50" id="60c-wA-Wut"/>
+                                            </constraints>
+                                            <fontDescription key="fontDescription" type="boldSystem" pointSize="21"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <constraints>
+                                        <constraint firstAttribute="trailing" secondItem="Qug-Fv-UNG" secondAttribute="trailing" id="DjF-Kb-V3n"/>
+                                        <constraint firstItem="Qug-Fv-UNG" firstAttribute="leading" secondItem="Yrh-SW-E6h" secondAttribute="leading" id="Tzw-aI-ctD"/>
+                                        <constraint firstItem="Qug-Fv-UNG" firstAttribute="top" secondItem="Yrh-SW-E6h" secondAttribute="top" id="heo-cR-UqB"/>
+                                    </constraints>
+                                </view>
+                            </subviews>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstItem="Yrh-SW-E6h" firstAttribute="leading" secondItem="zFg-pR-bfb" secondAttribute="leading" id="GGq-vz-KA3"/>
+                                <constraint firstItem="Yrh-SW-E6h" firstAttribute="top" secondItem="zFg-pR-bfb" secondAttribute="top" id="PnH-QI-YYb"/>
+                                <constraint firstAttribute="trailing" secondItem="Yrh-SW-E6h" secondAttribute="trailing" id="Uzn-dl-AaL"/>
+                                <constraint firstAttribute="bottom" secondItem="Yrh-SW-E6h" secondAttribute="bottom" id="rhc-mp-h0f"/>
+                            </constraints>
+                            <connections>
+                                <outlet property="sectionTitle" destination="Qug-Fv-UNG" id="98h-MY-gti"/>
+                            </connections>
+                        </collectionReusableView>
+                        <connections>
+                            <outlet property="dataSource" destination="uzA-ns-rlp" id="Me8-Ug-JXo"/>
+                            <outlet property="delegate" destination="uzA-ns-rlp" id="bEy-EX-zhq"/>
+                        </connections>
+                    </collectionView>
+                    <connections>
+                        <outlet property="collectionView" destination="FgY-Ja-xXd" id="9en-bF-LmR"/>
+                    </connections>
+                </collectionViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="lZg-ji-T10" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1281" y="6"/>
         </scene>
     </scenes>
 </document>

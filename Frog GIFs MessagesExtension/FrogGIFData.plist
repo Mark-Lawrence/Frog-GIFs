@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Sections</key>
+	<array>
+		<dict>
+			<key>SectionTitle</key>
+			<string>Portraits</string>
+			<key>Items</key>
+			<array>
+				<array>
+					<string>Sucking Thumb</string>
+					<string>Sucking Thumb-key</string>
+				</array>
+				<array>
+					<string>Big Kiss</string>
+					<string>Big Kiss-key</string>
+				</array>
+				<array>
+					<string>Blow Kisses</string>
+					<string>Blow Kisses-key</string>
+				</array>
+				<array>
+					<string>Elbows</string>
+					<string>Elbows-key</string>
+				</array>
+				<array>
+					<string>Hair Swoop</string>
+					<string>Hair Swoop-key</string>
+				</array>
+				<array>
+					<string>Sleepy</string>
+					<string>Sleepy-key</string>
+				</array>
+				<array>
+					<string>Stress</string>
+					<string>Stress-key</string>
+				</array>
+			</array>
+		</dict>
+		<dict>
+			<key>SectionTitle</key>
+			<string>UF</string>
+			<key>Items</key>
+			<array>
+				<array>
+					<string>Stadium</string>
+					<string>Stadium-key</string>
+				</array>
+				<array>
+					<string>Albert</string>
+					<string>Albert-key</string>
+				</array>
+				<array>
+					<string>Chomp</string>
+					<string>Chomp-key</string>
+				</array>
+				<array>
+					<string>The Swamp</string>
+					<string>The Swamp-key</string>
+				</array>
+				<array>
+					<string>Century Tower</string>
+					<string>Century Tower-key</string>
+				</array>
+				<array>
+					<string>Gator Mouth 1</string>
+					<string>Gator Mouth 1-key</string>
+				</array>
+				<array>
+					<string>Gator Mouth 2</string>
+					<string>Gator Mouth 2-key</string>
+				</array>
+				<array>
+					<string>Library</string>
+					<string>Library-key</string>
+				</array>
+				<array>
+					<string>Studying</string>
+					<string>Studying-key</string>
+				</array>
+			</array>
+		</dict>
+		<dict>
+			<key>SectionTitle</key>
+			<string>Sports</string>
+			<key>Items</key>
+			<array>
+				<array>
+					<string>Running</string>
+					<string>Running-key</string>
+				</array>
+				<array>
+					<string>Walking in Woods</string>
+					<string>Walking in Woods-key</string>
+				</array>
+				<array>
+					<string>Falling Racket</string>
+					<string>Falling Racket-key</string>
+				</array>
+				<array>
+					<string>Hit by Tennis Ball</string>
+					<string>Hit by Tennis Ball-key</string>
+				</array>
+				<array>
+					<string>Tennis Swing</string>
+					<string>Tennis Swing-key</string>
+				</array>
+			</array>
+		</dict>
+		<dict>
+			<key>SectionTitle</key>
+			<string>Emotions</string>
+			<key>Items</key>
+			<array>
+				<array>
+					<string>Face Palm</string>
+					<string>Face Palm-key</string>
+				</array>
+				<array>
+					<string>Waving</string>
+					<string>Waving-key</string>
+				</array>
+				<array>
+					<string>Clapping</string>
+					<string>Clapping-key</string>
+				</array>
+				<array>
+					<string>Covering Ears</string>
+					<string>Covering Ears-key</string>
+				</array>
+				<array>
+					<string>Hungry</string>
+					<string>Hungry-key</string>
+				</array>
+				<array>
+					<string>Laugh</string>
+					<string>Laugh-key</string>
+				</array>
+				<array>
+					<string>Scheming</string>
+					<string>Scheming-key</string>
+				</array>
+				<array>
+					<string>Smelly</string>
+					<string>Smelly-key</string>
+				</array>
+			</array>
+		</dict>
+		<dict>
+			<key>SectionTitle</key>
+			<string>Recreation</string>
+			<key>Items</key>
+			<array>
+				<array>
+					<string>Jumping in Lake</string>
+					<string>Jumping in Lake-key</string>
+				</array>
+				<array>
+					<string>Sitting by Lake 1</string>
+					<string>Sitting by Lake 1-key</string>
+				</array>
+				<array>
+					<string>Sitting by Lake 2</string>
+					<string>Sitting by Lake 2-key</string>
+				</array>
+				<array>
+					<string>Climbing Tree</string>
+					<string>Climbing Tree-key</string>
+				</array>
+			</array>
+		</dict>
+		<dict>
+			<key>SectionTitle</key>
+			<string>Seasons</string>
+			<key>Items</key>
+			<array>
+				<array>
+					<string>Autumn</string>
+					<string>Autumn-key</string>
+				</array>
+				<array>
+					<string>Scarf</string>
+					<string>Scarf-key</string>
+				</array>
+				<array>
+					<string>Snow fall</string>
+					<string>Snow fall-key</string>
+				</array>
+				<array>
+					<string>Snowball</string>
+					<string>Snowball-key</string>
+				</array>
+			</array>
+		</dict>
+		<dict>
+			<key>SectionTitle</key>
+			<string>Other</string>
+			<key>Items</key>
+			<array>
+				<array>
+					<string>Stranger Things</string>
+					<string>Stranger Things-key</string>
+				</array>
+				<array>
+					<string>Addicted to Phone</string>
+					<string>Addicted to Phone-key</string>
+				</array>
+				<array>
+					<string>Checking Weather</string>
+					<string>Checking Weather-key</string>
+				</array>
+				<array>
+					<string>Lazy boy</string>
+					<string>Lazy boy-key</string>
+				</array>
+			</array>
+		</dict>
+	</array>
+</dict>
+</plist>
